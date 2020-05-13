@@ -1,0 +1,60 @@
+body, html {
+    background-color: #fafafa;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    color: rgb(44, 43, 43);
+}
+
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+h1, .text--description {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.title--thin {
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.title--bold {
+    margin-top: 0;
+}
+
+.text--description {
+    text-align: center;
+}
+
+.container__card {
+    display: grid;
+    grid-area: repeat(1, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: min($numbers: 250px);
+    box-shadow: 0px 1px 25px .1em rgb(214, 214, 214);
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    color: grey;
+}
+
